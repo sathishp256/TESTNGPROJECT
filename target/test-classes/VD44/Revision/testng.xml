@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+   <groups>
+   <run> 
+   
+   <exclude name="functional"/>
+  
+   
+   </run>
+   
+   
+   </groups>
+  
+    <classes>
+      <class name="VD44.Revision.Loans"/>
+      <class name="VD44.Revision.Trade"/>
+      <class name="VD44.Revision.Payments"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
